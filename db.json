@@ -1,0 +1,41 @@
+{
+    "posts": [
+        {
+          "id": 1,
+          "title": "Exploring the Wilderness",
+          "description": "Embarking on a thrilling adventure into the heart of nature. Discover hidden treasures and breathtaking landscapes.",
+          "likeCount": 150
+        },
+        {
+          "id": 2,
+          "title": "Tech Innovations",
+          "description": "Unveiling the latest technological wonders shaping our future. From AI breakthroughs to space exploration, stay updated!",
+          "likeCount": 230
+        },
+        {
+          "id": 3,
+          "title": "Artistry in Motion",
+          "description": "Immerse yourself in the world of dynamic art. Witness the fusion of colors, shapes, and emotions in captivating masterpieces.",
+          "likeCount": 180
+        },
+        {
+          "id": 4,
+          "title": "Culinary Delights",
+          "description": "Savor the exquisite flavors of diverse cuisines. Indulge in gastronomic adventures that will tantalize your taste buds.",
+          "likeCount": 120
+        },
+        {
+          "id": 5,
+          "title": "Mindful Living",
+          "description": "Embrace a lifestyle that nurtures your body, mind, and soul. Discover mindfulness practices and holistic well-being tips.",
+          "likeCount": 280
+        },
+        {
+          "id": 6,
+          "title": "Celestial Wonders",
+          "description": "Journey through the cosmos and witness the beauty of stars, planets, and celestial phenomena. A cosmic odyssey awaits!",
+          "likeCount": 200
+        }
+      ]
+      
+}
