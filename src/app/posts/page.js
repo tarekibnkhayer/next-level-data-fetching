@@ -2,13 +2,13 @@
 
 
 const PostPage = async() => {
-    const res = await fetch('http://localhost:3004/posts',{
-        cache: 'force-cache'
+    const res = await fetch('http://localhost:3004/posts', {
+     cache: 'no-store'
     });
     const posts = await res.json();
     return (
         <div>
-            <h1>Total Postsss is: {posts.length}</h1>
+            <h1>Total Posts is: {posts.length}</h1>
             <div className="grid grid-cols-3 gap-5">
                 {
                     posts.map(post => <div key={posts.id} className="card w-96 bg-base-100 shadow-xl">
