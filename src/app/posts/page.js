@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 
@@ -17,7 +18,7 @@ const PostPage = async() => {
                       <p>description:{post.description}</p>
                       <p>Like: {post.likeCount}</p>
                       <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                       <Link href={`/posts/${post.id}`}> <button className="btn btn-primary">See More</button></Link>
                       </div>
                     </div>
                   </div>)
